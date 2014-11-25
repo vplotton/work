@@ -1,0 +1,52 @@
+( scene )
+{
+	name: raytracer
+	winsz: 640.0 480.0 0.0
+}
+( cam )
+{
+name: cam1
+		  coord: 320.0 240.0 -100.0
+		  d_vec: 0.0 0.0 0.0
+}
+( obj )
+{
+type: plane
+	radius: 200.0
+	coord: 0.0 0.0 3900.0
+	color: 130.0 17.0 55.0
+	d_vec: 0.0 0.0 1.0
+}
+( obj )
+{
+type: sphere
+		  radius: 500.0
+		  coeff: 0.4 0.5 0.1
+		  coord: 320.0 240.0 2000.0
+		  color: 91.0 1.0 133.0
+		  d_vec: 0.0 0.0 1.0
+}
+( obj )
+{
+type: sphere
+		  radius: 50.0
+		  coeff: 0.4 0.5 0.1
+		  coord: 320.0 300.0 1350.0
+		  color: 155.0 0.0 0.0
+}
+( obj )
+{
+type: cylinder
+		  radius: 50.0
+		  height: 1000.0
+		  coeff: 0.4 0.5 0.1
+		  coord: 220.0 240.0 1350.0
+		  color: 180.0 80.0 0.0
+		  d_vec: 0.0 1.0 0.0
+}
+( lgt )
+{
+name: none
+		  coord: 460.0 320.0 1100.0
+		  radius: 500.0
+}
