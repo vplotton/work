@@ -1,0 +1,9 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles vertex.
+
+An instance can be created like:
+new Vertex( array( 'x' => 9.0, 'y' => 9.0, 'dir' => 3.0) );
+
+With x, y being mandatory values, respectively being x,y axes.
+dir being an optional value representing the direction.
+---------------------------------------------------------------------- Vertex ->

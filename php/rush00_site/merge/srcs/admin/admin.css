@@ -1,0 +1,30 @@
+body
+{
+	background-color: white;
+}
+h1
+{
+	background-color: #002F2F;
+	color: white;
+}
+h2
+{
+	background-color: #046380;
+	color: white;
+}
+h3
+{
+	background-color: #A7A37E;
+}
+table
+{
+	border-collapse: collapse;
+}
+td
+{
+	border: 2px solid #A7A37E;
+}
+#tab_head
+{
+	background-color: #A7A37E;
+}
