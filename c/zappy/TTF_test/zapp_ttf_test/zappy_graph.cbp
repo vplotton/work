@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="zappy_graph" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\zappy_graph" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\zappy_graph" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="F:\Program Files (x86)\CodeBlocks\SDL-1.2.15\include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="F:\Program Files (x86)\CodeBlocks\SDL-1.2.15\lib" />
+		</Linker>
+		<Unit filename="cb.bmp" />
+		<Unit filename="ft_display.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ft_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_atoi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_bzero.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_check_r.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_isalnum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_isalpha.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_isascii.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_isdigit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_isprint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_itoa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_lstadd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_lstdel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_lstdelone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_lstiter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_lstnew.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_memalloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_memccpy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_memchr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_memcmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_memcpy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_memdel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_memmove.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_memset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_putchar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_putchar_fd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_putendl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_putendl_fd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_putnbr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_putnbr_fd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_putstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_putstr_fd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strcat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strchr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strclr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strcmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strcpy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strdel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strdup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strequ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_striter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_striteri.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strjoin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strlcat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strlen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strmapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strncat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strncmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strncpy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strnequ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strnew.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strnstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strrchr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strsplit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strstr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strsub.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_strtrim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_tolower.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\ft_toupper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libft\libft.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zappy_graph.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

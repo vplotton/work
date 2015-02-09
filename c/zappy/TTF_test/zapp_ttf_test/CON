@@ -1,0 +1,14 @@
+init pos x = 8 et y = 4
+init pos x = 8 et y = 2
+post init vianney
+post init video
+post initney
+post load img
+player
+player
+blit
+end i = 12 j = 12 et x = 550 y = 550
+post display
+post video
+Exited cleanly
+

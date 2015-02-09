@@ -1,0 +1,419 @@
+# depslib dependency file v1.0
+1401988044 source:k:\cygwin64\home\illu\zappy_graph\ft_display.c
+	"zappy_graph.h"
+
+1402178714 k:\cygwin64\home\illu\zappy_graph\zappy_graph.h
+	<errno.h>
+	"libft/libft.h"
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<SDL.h>
+	<stdio.h>
+	<unistd.h>
+	<SDL/SDL_image.h>
+
+1401962716 k:\cygwin64\home\illu\zappy_graph\libft\libft.h
+	<string.h>
+	<stdlib.h>
+	<unistd.h>
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326114588 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_platform.h
+
+1326114594 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326114600 f:\program files (x86)\codeblocks\sdl-1.2.15\include\begin_code.h
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\close_code.h
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_keysym.h
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1401962713 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_atoi.c
+
+1401962713 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_bzero.c
+	"libft.h"
+
+1401962713 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_check_r.c
+	"libft.h"
+
+1401962713 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_isalnum.c
+
+1401962713 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_isalpha.c
+
+1401962713 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_isascii.c
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_isdigit.c
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_isprint.c
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_itoa.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_lstadd.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_lstdel.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_lstdelone.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_lstiter.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_lstnew.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_memalloc.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_memccpy.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_memchr.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_memcmp.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_memcpy.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_memdel.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_memmove.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_memset.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_putchar.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_putchar_fd.c
+	"libft.h"
+
+1401962714 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_putendl.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_putendl_fd.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_putnbr.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_putnbr_fd.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_putstr.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_putstr_fd.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strcat.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strchr.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strclr.c
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strcmp.c
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strcpy.c
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strdel.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strdup.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strequ.c
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_striter.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_striteri.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strjoin.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strlcat.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strlen.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strmap.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strmapi.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strncat.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strncmp.c
+	"libft.h"
+
+1401962715 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strncpy.c
+	"libft.h"
+
+1401962716 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strnequ.c
+	"libft.h"
+
+1401962716 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strnew.c
+	"libft.h"
+
+1401962716 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strnstr.c
+	"libft.h"
+
+1401962716 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strrchr.c
+	"libft.h"
+
+1401962716 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strsplit.c
+	"libft.h"
+
+1401962716 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strstr.c
+	"libft.h"
+
+1401962716 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strsub.c
+	"libft.h"
+
+1401962716 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_strtrim.c
+	"libft.h"
+
+1401962716 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_tolower.c
+
+1401962716 source:k:\cygwin64\home\illu\zappy_graph\libft\ft_toupper.c
+
+1402065923 source:k:\cygwin64\home\illu\zappy_graph\ft_init.c
+	"zappy_graph.h"
+
+1402166945 source:k:\cygwin64\home\illu\zappy_graph\main.c
+	"zappy_graph.h"
+
+1402073112 source:k:\cygwin64\home\illu\zappy_graph\ft_display_ground.c
+	"zappy_graph.h"
+
+1402168135 source:k:\cygwin64\home\illu\zappy_graph\init.c
+	"zappy_graph.h"
+
+1401991785 source:k:\cygwin64\home\illu\zappy_graph\int_fake.c
+
+1402056206 source:k:\cygwin64\home\illu\zappy_graph\map.c
+	"zappy_graph.h"
+
+1402056206 source:k:\cygwin64\home\illu\zappy_graph\ressource.c
+	"zappy_graph.h"
+
+1402147630 source:k:\cygwin64\home\illu\zappy_graph\anim_player.c
+	"zappy_graph.h"
+
+1402079332 source:k:\cygwin64\home\illu\zappy_graph\ft_list.c
+	"zappy_graph.h"
+
+1402101934 source:k:\cygwin64\home\illu\zappy_graph\test.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"SDL.h"
+
+1402156125 source:k:\cygwin64\home\illu\zappy_graph\cmd.c
+
+1402168941 source:k:\cygwin64\home\illu\zappy_graph\interface.c
+	"zappy_graph.h"
+
+1402162944 source:k:\cygwin64\home\illu\zappy_graph\see.c
+
+1402166881 source:k:\cygwin64\home\illu\zappy_graph\tools.c
+
+1402152362 f:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
